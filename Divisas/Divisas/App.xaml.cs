@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Divisas
@@ -30,5 +30,10 @@ namespace Divisas
 		{
 			// Handle when your app resumes
 		}
-	}
+
+        internal static Task DisplayAlert(string v1, string v2, string v3)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
